@@ -20,9 +20,10 @@ param deployApim bool = true
 param isPrivateRegistry bool = true
 
 param containerRegistry string
-param containerRegistryUsername string = 'testUser'
+param containerRegistryUsername string = 'erydrn'
 @secure()
-param containerRegistryPassword string = ''
+param containerRegistryPassword string = 'MSeryDRN@2306'
+@secure()
 param registryPassword string = 'registry-password'
 
 
