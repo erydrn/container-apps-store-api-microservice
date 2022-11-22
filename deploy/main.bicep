@@ -22,7 +22,7 @@ param isPrivateRegistry bool = true
 param containerRegistry string
 param containerRegistryUsername string = 'erydrn'
 @secure()
-param containerRegistryPassword string = 'MSeryDRN@2306'
+param containerRegistryPassword string = 'DCANYA@ERPaV8688'
 @secure()
 param registryPassword string = 'registry-password'
 
