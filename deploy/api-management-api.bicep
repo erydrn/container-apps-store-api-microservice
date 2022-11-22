@@ -1,5 +1,5 @@
 //refer to existing APIM
-targetScope = 'resourceGroup'
+targetScope = resourceGroup().location
 
 //required parameters
 param apimInstanceName string // need to be provided since it is existing
